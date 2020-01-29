@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Open+Sans:400i');
+
+*,
+*:before,
+*:after{
+    margin:0;
+    padding:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+    color:white;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background{
+    background: url(../img/kobe.jpg);
+}
