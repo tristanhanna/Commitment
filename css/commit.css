@@ -16,64 +16,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.background{
-    background: black;
+#kobe1{
+    height:50%;
+    width:100%;
 }
-/*All of the slash CSS was adapted from: https://codepen.io/joashp/pen/QKjjKJ; mainly wanted to use it to have two colors on the title*/
-.slashTitle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-  -webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-}
-.slashTitle .top,
-.slashTitle .bottom {
-  font: 124px/100px impact;
-  text-transform: uppercase;
-  text-align: center;
-  overflow: hidden;
-}
-.slashTitle .top:before,
-.slashTitle .bottom:before {
-  content: attr(title);
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-.slashTitle .top {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  right: 0;
-  bottom: 50%;
-    color:purple;
-}
-.slashTitle .top:before {
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  right: 0;
-}
-.slashTitle .bottom {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0px;
-  bottom: 0;
-    color:yellow;
-}
-.slashTitle .bottom:before {
-  position: absolute;
-  top: -50px;
-  left: 0;
-  right: 0;
+
+.quote1{
+    color:black;
 }
