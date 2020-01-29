@@ -16,9 +16,17 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#kobe1{
-    height:50%;
+.title{
+    background:url(../img/kobe.jpg);
+    background-size:cover;
+    height:760px;
     width:100%;
+    text-align:center;
+}
+
+h1{
+    padding-top:20%;
+    font-size:7em;
 }
 
 .quote1{
