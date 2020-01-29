@@ -17,16 +17,10 @@ body{
 }
 
 .background{
-    background: url(../img/kobe.jpg)no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:2000px;
+    background: black;
 }
-/*All of the slash CSS was adapted from: https://codepen.io/joashp/pen/QKjjKJ; and its quite a lot*/
+/*All of the slash CSS was adapted from: https://codepen.io/joashp/pen/QKjjKJ; mainly wanted to use it to have two colors on the title*/
 .slashTitle {
-  font-size:10em;
   position: absolute;
   top: 0;
   left: 0;
@@ -41,11 +35,10 @@ body{
 }
 .slashTitle .top,
 .slashTitle .bottom {
-  font: 124px/200px arial;
+  font: 124px/100px impact;
   text-transform: uppercase;
   text-align: center;
   overflow: hidden;
-  color: #fff;
 }
 .slashTitle .top:before,
 .slashTitle .bottom:before {
@@ -59,9 +52,10 @@ body{
 .slashTitle .top {
   position: absolute;
   top: 0;
-  left: 5px;
+  left: 0px;
   right: 0;
   bottom: 50%;
+    color:purple;
 }
 .slashTitle .top:before {
   position: absolute;
@@ -73,8 +67,9 @@ body{
   position: absolute;
   top: 50%;
   left: 0;
-  right: 5px;
+  right: 0px;
   bottom: 0;
+    color:yellow;
 }
 .slashTitle .bottom:before {
   position: absolute;
