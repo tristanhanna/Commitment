@@ -17,10 +17,68 @@ body{
 }
 
 .background{
-    background: url(../img/kobe.jpg)no-repeat center center fixed; 
+    background: url(../img/kobe.jpg)no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height:2000px;
+}
+/*All of the slash CSS was adapted from: https://codepen.io/joashp/pen/QKjjKJ; and its quite a lot*/
+.slashTitle {
+  font-size:10em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.slashTitle .top,
+.slashTitle .bottom {
+  font: 124px/200px arial;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+}
+.slashTitle .top:before,
+.slashTitle .bottom:before {
+  content: attr(title);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+.slashTitle .top {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 50%;
+}
+.slashTitle .top:before {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+}
+.slashTitle .bottom {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+}
+.slashTitle .bottom:before {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
 }
