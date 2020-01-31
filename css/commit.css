@@ -49,6 +49,19 @@ h1{
     text-align:center;
 }
 
-.mamba{
+#mambaPic{
     cursor:pointer;
+    transition:.5s;
+    margin:3%;
+    padding:2%;
+}
+
+#mambaPic:hover{
+    background:white;
+    border-radius:2em;
+}
+
+.quote1{
+    padding:15%;
+    font-size:4em;
 }
