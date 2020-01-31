@@ -44,15 +44,11 @@ h1{
     font-size:7em;
 }
 
-.quote1{
+.quoting1{
     height:760px;
     text-align:center;
 }
 
 #mamba{
-    transition:2s;
-}
-
-#mamba:hover{
-    width:15%;
+    cursor:pointer;
 }
