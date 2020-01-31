@@ -46,4 +46,13 @@ h1{
 
 .quote1{
     height:760px;
+    text-align:center;
+}
+
+#mamba{
+    transition:2s;
+}
+
+#mamba:hover{
+    width:15%;
 }
