@@ -84,8 +84,7 @@ h1{
 
 #happyKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
-    width:150%;
-    
+    width:110%;
 }
 
 #dunkingKobe{
@@ -98,7 +97,8 @@ h1{
 }
 
 #dunkingKobe:hover{
-    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
+    width:110%;
 }
 
 #funnyKobe{
@@ -111,7 +111,8 @@ h1{
 }
 
 #funnyKobe:hover{
-    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
+    width:110%;
 }
 
 #winningKobe{
@@ -125,4 +126,5 @@ h1{
 
 #winningKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    width:110%;
 }
