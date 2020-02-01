@@ -74,3 +74,34 @@ h1{
     grid-template-rows: 40% 60%;
 }
 
+#happyKobe{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:30%;
+}
+
+#dunkingKobe{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:30%;
+}
+
+#funnyKobe{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width:30%;
+}
+
+#winningKobe{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width:30%;
+}
