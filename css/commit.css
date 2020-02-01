@@ -52,7 +52,6 @@ h1{
 
 #mambaPic{
     cursor:pointer;
-    transition:.5s;
     margin:3%;
     padding:2%;
 }
@@ -83,6 +82,12 @@ h1{
     margin:5%;
 }
 
+#happyKobe:hover{
+    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    width:150%;
+    
+}
+
 #dunkingKobe{
     grid-column-start: 4;
     grid-column-end: 5;
@@ -90,6 +95,10 @@ h1{
     grid-row-end: 2;
     width:90%;
     margin:5%;
+}
+
+#dunkingKobe:hover{
+    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
 }
 
 #funnyKobe{
@@ -101,6 +110,10 @@ h1{
     margin:5%;
 }
 
+#funnyKobe:hover{
+    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+}
+
 #winningKobe{
     grid-column-start: 4;
     grid-column-end: 5;
@@ -108,4 +121,8 @@ h1{
     grid-row-end: 3;
     width:90%;
     margin:5%;
+}
+
+#winningKobe:hover{
+    filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
 }
