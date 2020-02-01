@@ -69,13 +69,13 @@ h1{
 
 .photos{
     display:grid;
-    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
 }
 
 #happyKobe{
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     width:90%;
@@ -84,12 +84,11 @@ h1{
 
 #happyKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
-    width:110%;
 }
 
 #dunkingKobe{
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     width:90%;
@@ -98,12 +97,11 @@ h1{
 
 #dunkingKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
-    width:110%;
 }
 
 #funnyKobe{
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     width:90%;
@@ -112,12 +110,11 @@ h1{
 
 #funnyKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
-    width:110%;
 }
 
 #winningKobe{
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     width:90%;
@@ -126,5 +123,4 @@ h1{
 
 #winningKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
-    width:110%;
 }
