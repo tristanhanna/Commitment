@@ -70,8 +70,8 @@ h1{
 
 .photos{
     display:grid;
-    grid-template-columns: 15% 30% 10% 30% 15%;
-    grid-template-rows: 40% 60%;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: 50% 50%;
 }
 
 #happyKobe{
@@ -79,7 +79,8 @@ h1{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    width:30%;
+    width:90%;
+    margin:5%;
 }
 
 #dunkingKobe{
@@ -87,7 +88,8 @@ h1{
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-    width:30%;
+    width:90%;
+    margin:5%;
 }
 
 #funnyKobe{
@@ -95,7 +97,8 @@ h1{
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    width:30%;
+    width:90%;
+    margin:5%;
 }
 
 #winningKobe{
@@ -103,5 +106,6 @@ h1{
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    width:30%;
+    width:90%;
+    margin:5%;
 }
