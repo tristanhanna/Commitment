@@ -126,18 +126,27 @@ h1{
 }
 
 .toggling{
-    display:flex;
-    flex-direction: horizontal;
-    height:400px;
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
     text-align:center;
+    margin-top:20%;
+    margin-bottom:20%;
 }
 
 #t1{
+    grid-column-start:1;
+    grid-column-end:2;
     width:20%;
     cursor:pointer;
 }
 
 #t2{
+    grid-column-start:3;
+    grid-column-end:4;
     width:20%;
     cursor:pointer;
+}
+
+#text{
+    font-size:3em;
 }

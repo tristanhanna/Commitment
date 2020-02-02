@@ -28,19 +28,19 @@ function slideShowTextForward() {
         $("#text").html(texts[1]);
         count++;
     }
-    if(count == 2){
+    else if(count == 2){
         $("#text").html(texts[2]);
         count++;
     }
-    if(count == 3){
+    else if(count == 3){
         $("#text").html(texts[3]);
         count++;
     }
-    if(count == 4){
+    else if(count == 4){
         $("#text").html(texts[4]);
         count++;
     }
-    if(count == 5){
+    else if(count == 5){
         $("#text").html(texts[0]);
         count = 1;
     }
@@ -51,19 +51,19 @@ function slideShowTextBackward() {
         $("#text").html(texts[4]);
         count == 5;
     }
-    if(count == 2){
+    else if(count == 2){
         $("#text").html(texts[0]);
         count--;
     }
-    if(count == 3){
+    else if(count == 3){
         $("#text").html(texts[1]);
         count--;
     }
-    if(count == 4){
+    else if(count == 4){
         $("#text").html(texts[2]);
         count--;
     }
-    if(count == 5){
+    else if(count == 5){
         $("#text").html(texts[3]);
         count--;
     }
