@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 
 *,
 *:before,
@@ -13,8 +13,7 @@
 body{
     color:black;
     text-align:center;
-    font-family: 'Cantarell', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(255,255,224);
 }
 
@@ -30,11 +29,6 @@ body{
 #commitment{
     margin-top:30%;
     width:50%;
-}
-
-h1{
-    padding-top:20%;
-    font-size:7em;
 }
 
 .quoting1{
@@ -132,6 +126,7 @@ h1{
 
 h2{
     font-size:4em;
+    filter: drop-shadow(0 0 4mm rgb(255, 255, 255));
 }
 
 .toggling{
