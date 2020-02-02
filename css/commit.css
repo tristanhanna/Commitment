@@ -49,8 +49,8 @@ h1{
 }
 
 #mambaPic:hover{
-    background:white;
-    border-radius:2em;
+    filter: drop-shadow(0 0 8mm rgb(0, 0, 0));
+    width:40%;
 }
 
 .quote1{
@@ -76,6 +76,7 @@ h1{
 
 #happyKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    width:95%;
 }
 
 #dunkingKobe{
@@ -89,6 +90,7 @@ h1{
 
 #dunkingKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
+    width:95%;
 }
 
 #funnyKobe{
@@ -102,6 +104,7 @@ h1{
 
 #funnyKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
+    width:95%;
 }
 
 #winningKobe{
@@ -115,4 +118,5 @@ h1{
 
 #winningKobe:hover{
     filter: drop-shadow(0 0 6mm rgb(160, 0, 210));
+    width:95%;
 }
