@@ -125,10 +125,22 @@ h1{
     transform:rotate(180deg);
 }
 
+.toggling{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+}
+
 #t1{
-    width:5%;
+    grid-column-start:1;
+    grid-column-end:2;
+    width:20%;
+    cursor:pointer;
 }
 
 #t2{
-    width:5%;
+    grid-column-start:3;
+    grid-column-end:4;
+    width:20%;
+    cursor:pointer;
 }
