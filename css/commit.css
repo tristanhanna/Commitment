@@ -15,7 +15,7 @@ body{
     text-align:center;
     font-family: 'Cantarell', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background:white;
+    background-color: rgb(255,255,224);
 }
 
 .title{
@@ -49,7 +49,7 @@ h1{
 }
 
 #mambaPic:hover{
-    filter: drop-shadow(0 0 8mm rgb(0, 0, 0));
+    filter: drop-shadow(0 0 12mm rgb(0, 0, 0));
     width:40%;
 }
 
