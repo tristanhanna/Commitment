@@ -90,7 +90,7 @@ h1{
 }
 
 #dunkingKobe:hover{
-    filter: drop-shadow(0 0 8mm rgb(255, 215, 0));
+    filter: drop-shadow(0 0 8mm rgb(160, 0, 210));
 }
 
 #funnyKobe{
@@ -100,10 +100,11 @@ h1{
     grid-row-end: 3;
     width:90%;
     margin:5%;
+    filter: drop-shadow(0 0 4mm rgb(0, 0, 0));
 }
 
 #funnyKobe:hover{
-    filter: drop-shadow(0 0 6mm rgb(255, 215, 0));
+    filter: drop-shadow(0 0 8mm rgb(160, 0, 210));
 }
 
 #winningKobe{
