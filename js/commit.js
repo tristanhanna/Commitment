@@ -1,5 +1,7 @@
 var texts = ["The most important thing is to try and inspire people so that they can be great in whatever they want to do.", "I'm reflective only in the sense that I learn to move forward. I reflect with a purpose.", "I have self-doubt. I have insecurity. I have fear of failure. I have nights when I show up at the arena and I'm like, 'My back hurts, my feet hurt, my knees hurt. I don't have it. I just want to chill.' We all have self-doubt. You don't deny it, but you also don't capitulate to it. You embrace it.", "I don't want to be the next Michael Jordan, I only want to be Kobe Bryant.", "I can't relate to lazy people. We don't speak the same language. I don't understand you. I don't want to understand you."]
 
+var count = 1;
+
 $(document).ready(function () {
     //hides all the information to each section
     $(".quote1").hide();
@@ -21,7 +23,6 @@ $(document).ready(function () {
     });
 });
 
-var count = 1;
 function slideShowTextForward() {
     if(count == 1){
         $("#text").html(texts[1]);
