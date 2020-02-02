@@ -120,3 +120,7 @@ h1{
 #winningKobe:hover{
     filter: drop-shadow(0 0 8mm rgb(160, 0, 210));
 }
+
+#arrowRight{
+    transform:rotate(180deg);
+}
