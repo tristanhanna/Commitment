@@ -11,6 +11,11 @@ $(document).ready(function () {
     
     
 });
+var texts = ["The most important thing is to try and inspire people so that they can be great in whatever they want to do.", "I'm reflective only in the sense that I learn to move forward. I reflect with a purpose.", "I have self-doubt. I have insecurity. I have fear of failure. I have nights when I show up at the arena and I'm like, 'My back hurts, my feet hurt, my knees hurt. I don't have it. I just want to chill.' We all have self-doubt. You don't deny it, but you also don't capitulate to it. You embrace it.", "I don't want to be the next Michael Jordan, I only want to be Kobe Bryant."]
+var count = 1;
+function slideShowText() {
+    
+}
 
 function retrieve() {
     var url = new URL('https://www.googleapis.com/youtube/v3/search');
