@@ -125,12 +125,20 @@ h1{
     transform:rotate(180deg);
 }
 
+.moreQuotes{
+    margin-top:10%;
+    margin-bottom:20%;
+}
+
+h2{
+    font-size:4em;
+}
+
 .toggling{
     display:grid;
     grid-template-columns: 20% 60% 20%;
     text-align:center;
-    margin-top:20%;
-    margin-bottom:20%;
+    margin-top:5%;
 }
 
 #t1{
