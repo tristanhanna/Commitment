@@ -57,8 +57,12 @@ body{
 
 .quote1{
     padding:15%;
-    font-size:4em;
+    font-size:3em;
     cursor:pointer;
+}
+
+#theFirstQuote:hover{
+    filter: drop-shadow(0 0 15mm rgb(0, 0, 0));
 }
 
 .photos{

@@ -47,9 +47,11 @@ function slideShowTextForward() {
 }
 
 function slideShowTextBackward() {
+    var testing = true;
     if(count == 1){
         $("#text").html(texts[4]);
         count == 5;
+        testing = false;
     }
     else if(count == 2){
         $("#text").html(texts[0]);
@@ -63,7 +65,7 @@ function slideShowTextBackward() {
         $("#text").html(texts[2]);
         count--;
     }
-    else if(count == 5){
+    else if(count == 5 && testing == true){
         $("#text").html(texts[3]);
         count--;
     }
