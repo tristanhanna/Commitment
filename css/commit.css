@@ -127,16 +127,19 @@ body{
     filter: drop-shadow(0 0 8mm rgb(160, 0, 210));
 }
 
-#arrowRight{
-    transform:rotate(180deg);
-}
-
 .toggling{
     text-align:center;
-    display:flex;
-    flex-direction: row-reverse;
+    display:grid;
 }
 
+#head{
+    cursor:pointer;
+    width:80%;
+}
+
+#head:hover{
+    filter: drop-shadow(0 0 8mm rgb(0, 0, 0));
+}
 
 #text{
     font-size:3em;
