@@ -130,11 +130,15 @@ body{
 .toggling{
     text-align:center;
     display:grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 400px;
 }
 
 #head{
     cursor:pointer;
     width:80%;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 #head:hover{
@@ -143,6 +147,8 @@ body{
 
 #text{
     font-size:3em;
+    grid-column-start: 1;
+    grid-column-end: 2;
     background:rgba(0,0,0,.75);
     color:white;
 }
