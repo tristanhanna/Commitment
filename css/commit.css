@@ -136,31 +136,11 @@ body{
     margin-bottom:20%;
 }
 
-h2{
-    font-size:4em;
-    filter: drop-shadow(0 0 4mm rgb(255, 255, 255));
-}
-
 .toggling{
-    display:grid;
-    grid-template-columns: 20% 60% 20%;
     text-align:center;
     margin-top:5%;
 }
 
-#t1{
-    grid-column-start:1;
-    grid-column-end:2;
-    width:20%;
-    cursor:pointer;
-}
-
-#t2{
-    grid-column-start:3;
-    grid-column-end:4;
-    width:20%;
-    cursor:pointer;
-}
 
 #text{
     font-size:3em;

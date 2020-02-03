@@ -8,12 +8,8 @@ $(document).ready(function () {
     
     $("#text").html(texts[0]);
     
-    $("#t1").click(function () {
-        slideShowTextBackward();
-    });
-    
-    $("#t2").click(function () {
-        slideShowTextForward();
+    $("#head").click(function () {
+        slideShowText();
     });
     
     //toggles information based on click
@@ -23,7 +19,7 @@ $(document).ready(function () {
     });
 });
 
-function slideShowTextForward() {
+function slideShowText() {
     if(count == 1){
         $("#text").html(texts[1]);
         count++;
@@ -43,31 +39,6 @@ function slideShowTextForward() {
     else if(count == 5){
         $("#text").html(texts[0]);
         count = 1;
-    }
-}
-
-function slideShowTextBackward() {
-    var testing = true;
-    if(count == 1){
-        $("#text").html(texts[4]);
-        count == 5;
-        testing = false;
-    }
-    else if(count == 2){
-        $("#text").html(texts[0]);
-        count--;
-    }
-    else if(count == 3){
-        $("#text").html(texts[1]);
-        count--;
-    }
-    else if(count == 4){
-        $("#text").html(texts[2]);
-        count--;
-    }
-    else if(count == 5 && testing == true){
-        $("#text").html(texts[3]);
-        count--;
     }
 }
 
