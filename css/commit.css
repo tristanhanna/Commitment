@@ -152,4 +152,6 @@ h2{
 
 #text{
     font-size:3em;
+    background:rgba(0,0,0,.75);
+    color:white;
 }
