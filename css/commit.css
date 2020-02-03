@@ -62,7 +62,7 @@ body{
 }
 
 #theFirstQuote:hover{
-    filter: drop-shadow(0 0 15mm rgb(0, 0, 0));
+    text-shadow:1px 1px gold;
 }
 
 .photos{
@@ -137,8 +137,13 @@ body{
 #head{
     cursor:pointer;
     width:80%;
+}
+
+#next{
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #head:hover{
@@ -151,4 +156,6 @@ body{
     grid-column-end: 2;
     background:rgba(0,0,0,.75);
     color:white;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
