@@ -151,7 +151,7 @@ body{
 }
 
 #theText{
-    font-size:2em;
+    font-size:1.6em;
     grid-column-start: 1;
     grid-column-end: 2;
     color:white;
