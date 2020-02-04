@@ -50,7 +50,7 @@ function retrieve() {
         q: "kobe bryant's best 100 plays of his career",
         part: 'snippet',
         maxResults: 11,
-        key: "N/A"
+        key: "AIzaSyBsObOCPoImQ85Z0blZk0pxIXJlEz6XaiY"
     }
 
     url.search = new URLSearchParams(params);
