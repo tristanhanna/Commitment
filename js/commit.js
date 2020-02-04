@@ -49,7 +49,7 @@ function retrieve() {
     var params = {
         q: "kobe bryant's best 100 plays of his career",
         part: 'snippet',
-        maxResults: 11,
+        maxResults: 1,
         key: "AIzaSyBsObOCPoImQ85Z0blZk0pxIXJlEz6XaiY"
     }
 
@@ -71,11 +71,9 @@ function showResults (response) {
     console.log(response);
     var results = response.items;
     document.getElementById("vid").innerHTML="";
-    for(i=1;i<2;i++){
-        var id= results[i].id.videoId;
-        var video = '<p><iframe class="video-result" width="1000" height="562" src="https://www.youtube.com/embed/' + id + '" frameborder="0"></p>';
-        document.getElementById("vid").innerHTML+=video;
-    }
+    var id= results[0].id.videoId;
+    var video = '<p><iframe class="video-result" width="1000" height="562" src="https://www.youtube.com/embed/' + id + '" frameborder="0"></p>';
+    document.getElementById("vid").innerHTML+=video;
 }
 
 retrieve();
