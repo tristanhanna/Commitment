@@ -3,6 +3,11 @@ var count = 1;
 $(document).ready(function () {
     //hides all the information to each section
     $(".quote1").hide();
+    $("#text1").hide();
+    $("#text2").hide();
+    $("#text3").hide();
+    $("#text4").hide();
+    $("#text5").hide();
     
     $("#text").html(texts[0]);
     
