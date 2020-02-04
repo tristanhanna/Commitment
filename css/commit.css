@@ -131,7 +131,7 @@ body{
     text-align:center;
     display:grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 600px;
+    grid-template-rows: 760px;
 }
 
 #head{
@@ -150,7 +150,7 @@ body{
     filter: drop-shadow(0 0 8mm rgb(250, 215, 0));
 }
 
-#text{
+#theText{
     font-size:3em;
     grid-column-start: 1;
     grid-column-end: 2;
