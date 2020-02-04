@@ -9,8 +9,6 @@ $(document).ready(function () {
     $("#text4").hide();
     $("#text5").hide();
     
-    $("#text").html(texts[0]);
-    
     $("#head").click(function () {
         slideShowText();
     });
@@ -24,23 +22,23 @@ $(document).ready(function () {
 
 function slideShowText() {
     if(count == 1){
-        $("#text").html(texts[1]);
+        $("#text1").toggle();
         count++;
     }
     else if(count == 2){
-        $("#text").html(texts[2]);
+        $("#text2").toggle();
         count++;
     }
     else if(count == 3){
-        $("#text").html(texts[3]);
+        $("#text3").toggle();
         count++;
     }
     else if(count == 4){
-        $("#text").html(texts[4]);
+        $("#text4").toggle();
         count++;
     }
     else if(count == 5){
-        $("#text").html(texts[0]);
+        $("#text5").toggle();
         count = 1;
     }
 }
