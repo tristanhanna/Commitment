@@ -62,7 +62,7 @@ body{
 }
 
 #theFirstQuote:hover{
-    text-shadow:1px 1px gold;
+    text-shadow:4px 4px gold;
 }
 
 .photos{
@@ -124,14 +124,14 @@ body{
 }
 
 #winningKobe:hover{
-    filter: drop-shadow(0 0 8mm rgb(160, 0, 210));
+    filter: drop-shadow(0 0 8mm rgb(160, 5, 210));
 }
 
 .toggling{
     text-align:center;
     display:grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 400px;
+    grid-template-rows: 600px;
 }
 
 #head{
@@ -147,7 +147,7 @@ body{
 }
 
 #head:hover{
-    filter: drop-shadow(0 0 8mm rgb(0, 0, 0));
+    filter: drop-shadow(0 0 8mm rgb(250, 215, 0));
 }
 
 #text{
@@ -158,4 +158,5 @@ body{
     color:white;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin:5%
 }
